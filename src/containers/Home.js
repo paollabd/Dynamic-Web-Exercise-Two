@@ -91,6 +91,7 @@ export default function Home(props) {
 					<p>Current Temperature: {weather.data && weather.data.main.temp} Kelvin</p>
 					<p>Today's High Temperature: {weather.data && weather.data.main.temp_max} Kelvin</p>
 					<p>Today's Low Temperature: {weather.data && weather.data.main.temp_min} Kelvin</p>
+
 					<p>Wind: {weather.data && weather.data.wind.speed} km/h coming at {weather.data && weather.data.wind.deg}&#176;</p>
 					<p>Humidity: {weather.data && weather.data.main.humidity}%</p>
 					<p>Cloudy: {weather.data && weather.data.clouds.all}%</p>
