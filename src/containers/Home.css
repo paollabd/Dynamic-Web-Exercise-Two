@@ -1,0 +1,71 @@
+body {
+	box-sizing: border-box;
+}
+
+
+.CityTitle{
+	color: navy;
+	text-align: center;
+}
+
+.InfoCard{
+	border: 2px solid grey;
+	border-radius: 25px;
+	margin-left: 37%;
+	margin-top: 1%;
+	padding: 1%;
+	width: 23%;
+}
+
+/*.WeatherIcon {
+	margin-left: 47%;
+	margin-right: auto;
+}*/
+
+.WeatherNav .WeatherNav__Item--active{
+	/*background-color: hotpink;*/
+	background-color: #ff6781;
+	color: white;
+}
+
+.WeatherDescription{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.WeatherNav{
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0px auto;
+	max-width: 1080px;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.WeatherNav__Item{
+	border: 1px solid #ff6781;
+	border-radius: 8px;
+	color: #ff6781;
+	font-size: 10pt;
+	font-weight: bold;
+	margin: 0 20px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+
+.WeatherNav__Item a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
